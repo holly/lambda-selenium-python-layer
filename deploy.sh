@@ -4,8 +4,8 @@ set -e
 #set -u
 
 LAMBDA_LAYER_NAME=$(basename $PWD | sed -e 's/^lambda\-//')
-LAMBDA_ZIP_ARCHIVE=$PWD/lambda-python-layer.zip
-LAYER_DESCRIPTION="for python lambda library"
+LAMBDA_ZIP_ARCHIVE=$PWD/lambda-selenium-python-layer.zip
+LAYER_DESCRIPTION="for python and selenium lambda library"
 
 export AWS_PAGER=""
 if [ -z "$AWS_DEFAULT_REGION"  ]; then
