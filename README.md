@@ -1,1 +1,1 @@
-# lambda-python-layer
+# lambda-selenium-python-layer
